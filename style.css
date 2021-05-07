@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+html {
+    /* // 1rem = 10px;  10px/16px = 62.5% */
+  font-size: 62.5%;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -13,6 +18,7 @@ body {
   align-items: center;
   background-image: url(./ian-schneider-PAykYb-8Er8-unsplash.jpg);
   background-size: cover;
+  background-position: center center ;
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: "Nunito Sans", sans-serif;
@@ -21,29 +27,44 @@ body {
 
 .container {
   display: flex;
+  flex-wrap: wrap
 }
 
 .item-wrapper {
-  margin: 1.5rem 2rem;
+  margin: 2rem 2.4rem;
   text-align: center;
 }
 
 .item-wrapper span {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 10rem;
   line-height: 1;
 }
 
 h2 {
-    font-size: 4.5rem;
-    letter-spacing: 12px;
+    font-size: 7.5rem;
+    letter-spacing: 10px;
     line-height: 1.5;
+    text-align: center;
     text-shadow: rgb(255 0 0) 0px 0px 15px;
 }
 
+@media only screen and (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
 
+    body {
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+    }
+    
+    h2 {
+        letter-spacing: 5px;
+    }
+  }
 
 
