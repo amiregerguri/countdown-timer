@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./ian-schneider-PAykYb-8Er8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.item-wrapper {
+  margin: 1.5rem 2rem;
+  text-align: center;
+}
+
+.item-wrapper span {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+h2 {
+    font-size: 4.5rem;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    text-shadow: rgb(255 0 0) 0px 0px 15px;
+}
+
+
+
+
